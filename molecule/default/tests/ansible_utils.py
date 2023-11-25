@@ -42,6 +42,7 @@ topic_defaut_configuration = {
     'state': 'present',
     'replica_factor': 1,
     'partitions': 1,
+    'replica_assignment': [],
     'options': {}
 }
 
