@@ -133,6 +133,7 @@ def process_module_topic(module):
         'name': params['name'],
         'partitions': params['partitions'],
         'replica_factor': params['replica_factor'],
+        'replica_assignment': params['replica_assignment'],
         'force_reassign': params['force_reassign'],
         'preserve_leader': params['preserve_leader'],
         'state': params['state'],

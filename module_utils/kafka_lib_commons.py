@@ -80,6 +80,8 @@ module_topic_commons = dict(
 
     replica_factor=dict(type='int', required=False, default=0),
 
+    replica_assignment=dict(type='list', required=False, default=0),
+
     force_reassign=dict(type='bool', required=False, default=False),
 
     preserve_leader=dict(type='bool', required=False, default=False),
